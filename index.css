@@ -1,12 +1,13 @@
     /*GLOBAL*/
     *{
-        margin:0;
+
         padding: 0;
     } 
 
     body{
-        background-color:#FFEDD5;
         font-family: 'Roboto', serif;
+        background-image: url(imagem-fundo.png);
+        background-size: cover;
     }
 
     ul{
@@ -17,7 +18,7 @@
      h1, h2, .price{
         font-family: 'Roboto Serif', serif;
         text-transform: uppercase;
-        color: #2d2C2A;
+        color: #000;
     }
     
 
@@ -25,14 +26,18 @@
     /* HEADER */
 
     header{
-       padding:32px 0;
+       padding:55px 0;
        text-align: center;
     }
 
     header,
     section{
-        max-width: 300px;
-        margin:0 auto;
+        margin:0px auto;
+        position: relative;
+        max-width: 600px;
+        padding: 50px;
+        background: rgba(255, 255, 255, .2);
+        border-radius: 10px;
     }
     header h1{
         margin-bottom: 4px;
@@ -53,9 +58,10 @@
     /* SECTION */
 
     section h2{
-        background-color:#FED7AA;
+        background-color:#995000;
         padding:8px 16px;
         text-align: center;
+        border-radius: 5px;
         
         margin-bottom: 24px;
         font-size: 18px;
@@ -78,16 +84,18 @@
     }
     
     .details h3{
+        color: ;
         margin-bottom: 8px;
         font-size: 16px;
         line-height: 19px;
+        text-align: left;
     } 
 
     .details p{
-        color: rgba(0,0,0,0.6);
+        color: #fff;
         font-size: 14px;
         line-height: 21px;
     }
 
-
+    
    
